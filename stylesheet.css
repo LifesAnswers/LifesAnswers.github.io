@@ -1,0 +1,108 @@
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(115,147,179,.4);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: #0047AB;
+}
+
+/* Main content */
+.main {
+  margin-top: 75px;
+}
+
+body {
+    background-image: url("images/canyonbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*Change header 1 to align the text center,
+set the font size to 3em, the font family to Elephant,
+and per teacher's request the font color to purple
+ */
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-family: Papyrus;
+	color: #00008B;
+	}
+/*Change font size of header 2 to 2em*/
+h2 {
+	font-size: 2em;
+    text-align: center;
+    font-family: Papyrus;
+	color: #00008B;
+	}
+/*Change font size of header 3 to 2em*/
+h3 {
+	font-size: 1.75em;
+    color: #f2f2f2;
+	}
+/*Set font size of the paragraphs to 1.5em*/
+p {
+    font-size: 1.5em;
+    color: white;
+}
+/*Adjust the pre formated text to also be font size 1.5em*/
+pre {
+	font-size: 1.5em;
+    color: limegreen;
+}
+a {
+    font-size: 1.75em;
+}
+/*Make lists have a smaller font size of 1.25em*/
+ul li {
+    list-style: none;
+	font-size: 1.25em;
+    color: black;
+}
+table {
+    vertical-align: top;
+    border-style: solid;
+    border-width: 110px 110px 0px 110px;
+    -moz-border-image: url(images/border.jpg) 130 130 130 130 round round;
+    -webkit-border-image: url(images/border.jpg) 130 130 130 130 round round;
+    -o-border-image: url(images/border.jpg) 130 130 130 130 round round;
+    border-image: url(images/border.jpg) 130 130 130 130 round round;
+    font-size: 1.5em;
+    font-family: "MV Boli", serif;
+    text-align: center;
+}
+td {
+    padding: 0px 10px 10px 30px;
+}

@@ -15,7 +15,7 @@
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: rgb(115,147,179,.4);
+  background-color: rgba(150, 51, 217, 0.88);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -39,11 +39,11 @@
 
 /* Main content */
 .main {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 body {
-    background-image: url("images/canyonbg.jpg");
+    background-image: url("images/homebg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -55,9 +55,8 @@ set the font size to 3em, the font family to Elephant,
 and per teacher's request the font color to purple
  */
 h1 {
-	text-align: center;
 	font-size: 3em;
-	font-family: Papyrus;
+	font-family: Brush Script MT;
 	color: #00008B;
 	}
 /*Change font size of header 2 to 2em*/
@@ -91,18 +90,7 @@ ul li {
 	font-size: 1.25em;
     color: black;
 }
-table {
-    vertical-align: top;
-    border-style: solid;
-    border-width: 110px 110px 0px 110px;
-    -moz-border-image: url(images/border.jpg) 130 130 130 130 round round;
-    -webkit-border-image: url(images/border.jpg) 130 130 130 130 round round;
-    -o-border-image: url(images/border.jpg) 130 130 130 130 round round;
-    border-image: url(images/border.jpg) 130 130 130 130 round round;
-    font-size: 1.5em;
-    font-family: "MV Boli", serif;
-    text-align: center;
-}
+
 td {
     padding: 0px 10px 10px 30px;
 }

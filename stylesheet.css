@@ -15,7 +15,7 @@
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: rgba(150, 51, 217, 0.88);
+  background-color: rgba(150, 51, 217);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -79,7 +79,7 @@ p {
 /*Adjust the pre formated text to also be font size 1.5em*/
 pre {
 	font-size: 1.5em;
-    color: limegreen;
+
 }
 a {
     font-size: 1.75em;

@@ -1,21 +1,10 @@
 
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-.dropdown-options {
-  display: none;
-  position: absolute;
-  overflow: auto;
-}
-
-.dropdown:hover .dropdown-options {
-  display: block;
-}
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: rgba(150, 51, 217);
+  background-image: url("images/navbar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -25,7 +14,7 @@
 .navbar a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: #0b620b;
   text-align: right;
   padding: 14px 16px;
   text-decoration: none;
@@ -90,7 +79,40 @@ ul li {
 	font-size: 1.25em;
     color: black;
 }
+table {
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    table td {
+      font-size: 14px;
+      padding: 4px;
+    }
+  }
 
 td {
-    padding: 0px 10px 10px 30px;
+    padding: 0px 10px 10px 0px;
 }
+.carousel {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* The slider container has a white-space nowrap and a transition property */
+  .slider {
+    white-space: nowrap;
+    transition: transform 0.8s ease;
+  }
+
+  /* Each slide has a width of 100% and a display inline-block */
+  .slide {
+    width: 100%;
+    display: inline-block;
+    vertical-align: center;
+  }
+
+  /* Each image has a width of 100% and a height of auto */
+  .slide img {
+    width: 100%;
+    height: auto;
+  }

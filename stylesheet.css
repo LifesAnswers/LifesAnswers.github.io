@@ -27,17 +27,21 @@
 }
 
 /* Main content */
-.main {
-  margin-top: 75px;
-}
+
 
 body {
     background-image: url("images/homebg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  @media (min-width: 1080px) {
+    body {
+      width: 100%;
+    }
 
 }
-
 
 /*Change header 1 to align the text center,
 set the font size to 3em, the font family to Elephant,
@@ -83,7 +87,7 @@ table {
     width: 100%;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1080px) {
     table td {
       font-size: 14px;
       padding: 4px;
@@ -91,7 +95,7 @@ table {
   }
 
 td {
-    padding: 0px 10px 10px 0px;
+    padding: 30px 0px 0px 30px;
 }
 .carousel {
     height: 100%;
@@ -113,6 +117,6 @@ td {
 
   /* Each image has a width of 100% and a height of auto */
   .slide img {
-    width: 100%;
-    height: auto;
+    width: 712px;
+    height: 400px;
   }

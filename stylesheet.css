@@ -62,12 +62,12 @@ h2 {
 /*Change font size of header 3 to 2em*/
 h3 {
 	font-size: 1.75em;
-    color: #f2f2f2;
+    color: #00008B;
 	}
 /*Set font size of the paragraphs to 1.5em*/
 p {
     font-size: 1.5em;
-    color: white;
+    color: black
 }
 /*Adjust the pre formated text to also be font size 1.5em*/
 pre {
@@ -84,7 +84,7 @@ ul li {
     color: black;
 }
 table {
-    width: 100%;
+    width: 90%;
   }
 
   @media (max-width: 1080px) {

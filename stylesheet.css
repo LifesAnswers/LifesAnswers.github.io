@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
 
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 99%; /* Full width */
 }
 
 /* Links inside the navbar */
@@ -28,6 +28,7 @@
 
 /* Main content */
 
+  
 
 body {
     background-image: url("images/homebg.jpg");

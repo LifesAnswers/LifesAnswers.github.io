@@ -118,5 +118,5 @@ td {
   /* Each image has a width of 100% and a height of auto */
   .slide img {
     width: 712px;
-    height: 400px;
+    height: auto;
   }

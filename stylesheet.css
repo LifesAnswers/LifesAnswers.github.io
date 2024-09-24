@@ -231,18 +231,3 @@ td {
     max-height: 300px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .navbar-left h1 {
-    font-size: 1.8em;
-  }
-  
-  .navbar a {
-    font-size: 0.8em;
-    padding: 8px 10px;
-  }
-  
-  .navbar-icon {
-    height: 2em;
-  }
-}

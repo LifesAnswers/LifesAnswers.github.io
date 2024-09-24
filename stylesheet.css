@@ -3,11 +3,34 @@
 .navbar {
   overflow: hidden;
   background-image: url("images/navbar.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
+  background-size: cover;
+  background-repeat: no-repeat;
   top: 0; /* Position the navbar at the top of the page */
   width: 99%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon {
+    height: 3.5em;
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-left h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.navbar-right {
+    display: flex;
 }
 
 /* Links inside the navbar */
@@ -18,6 +41,10 @@
   text-align: right;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navbar-right a {
+    margin-left: 15px;
 }
 
 /* Change background on mouse-over */
@@ -123,6 +150,8 @@ td {
 .carousel-container {
   flex: 1;
   max-width: calc(100% - 390px);
+  margin-top: 20px;
+
 }
 
 .carousel {

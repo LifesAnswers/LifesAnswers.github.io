@@ -11,26 +11,32 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .navbar-left {
     display: flex;
     align-items: center;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .navbar-icon {
-    height: 3.5em;
-    width: auto;
-    margin-right: 10px;
+  height: 2.5em;
+  width: auto;
+  margin-right: 10px;
 }
 
 .navbar-left h1 {
-    font-size: 3.5em;
-    margin: 0;
+  font-size: 2.5em;
+  margin: 0;
+  white-space: nowrap;
 }
 
 .navbar-right {
-    display: flex;
+  display: flex;
+  align-items: center;
 }
 
 /* Links inside the navbar */
@@ -223,5 +229,20 @@ td {
 
   .sandra-image img, .carousel {
     max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-left h1 {
+    font-size: 1.8em;
+  }
+  
+  .navbar a {
+    font-size: 0.8em;
+    padding: 8px 10px;
+  }
+  
+  .navbar-icon {
+    height: 2em;
   }
 }
